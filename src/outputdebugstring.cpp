@@ -1,5 +1,7 @@
-﻿#include "common.hpp"
+#include "common.hpp"
 #include <array>
+#include "stdio.h"
+#include "wchar.h"
 
 #if defined(USE_OUTOUT_DEBUG_STRING) && (USE_OUTOUT_DEBUG_STRING == 1)
 void outputDebugString(const wchar_t* fmt, ...) {
